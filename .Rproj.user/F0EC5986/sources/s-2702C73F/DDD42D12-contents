@@ -1,0 +1,18 @@
+library(tidyverse)
+library(readxl)
+
+gap <- read_excel("datos/gap.xlsx")
+# ver dataframe
+View(gap)
+# ver datos y formato 
+str(gap)
+# primeros y ultimos datos
+head(gap, 20)
+tail(gap, 20)
+
+# 
+names(gap)
+# contar filas y columnas
+ncol(gap)
+nrow(gap)
+
