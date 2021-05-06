@@ -1,0 +1,10 @@
+library(tidyverse)
+library(readxl)
+
+gap <- read_excel("datos/gap.xlsx")
+
+class(gap)
+mi_lista <- list(datos_gap = gap, 
+                 datos_poleras = poleras_tbl_sin_na, 
+                 vector = v4, 
+                 numero = a)
